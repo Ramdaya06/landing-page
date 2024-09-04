@@ -1,0 +1,140 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('your-image.jpg') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-content .btn {
+    padding: 10px 30px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.hero-content .btn:hover {
+    background-color: #ff4500;
+}
+
+/* Features Section */
+.features-section {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    margin-bottom: 30px;
+}
+
+.feature-box h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 18px;
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+}
+
+/* Footer Section */
+.footer-section {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 16px;
+}
+
+.footer-section p:not(:last-child) {
+    margin-bottom: 10px;
+}
